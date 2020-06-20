@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+  background-color: blue;
+}
+
+.main {
+  padding-top: 10px;
+  background-color: lightgreen;
+}
+
+.main p {
+  padding: 5px 0;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: grey;
+}
+

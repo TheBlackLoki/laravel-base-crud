@@ -1,6 +1,9 @@
 @extends('main_layout')
 @section('content')
-  {{-- @foreach ($omini as $omino)
-    <p>{{$omino['name']}}</p>
-  @endforeach --}}
+  <a href="{{route('create')}}"><h2>CREATE NEW</h2></a>
+  @foreach ($omini as $omino)
+    <a href="{{ route('show', $omino['id'])}}">
+    <p>{{$omino['firstname']}} {{$omino['lastname']}}</p>
+    </a>
+  @endforeach
 @endsection

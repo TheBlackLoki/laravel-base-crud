@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Omini extends Model
+class Omino extends Model
 {
-    protected $table ='omini';
+    protected $table = 'omini';
 }

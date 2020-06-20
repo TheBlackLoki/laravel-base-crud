@@ -1,7 +1,8 @@
 <?php
 
+use App\Omino;
 use Illuminate\Database\Seeder;
-use App\Omini;
+
 class OminiSeeder extends Seeder
 {
     /**
@@ -11,6 +12,6 @@ class OminiSeeder extends Seeder
      */
     public function run()
     {
-        factory(Omini::class, 50) -> create();
+        factory(Omino::class, 50) -> create();
     }
 }
